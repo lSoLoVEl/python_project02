@@ -15,10 +15,10 @@ print(f'ยินดีต้อนรับ {std_id} ชื่อ {std_name}')
 print(f'คุณเกิดปี {stdYearBorn} อายุ {stdAge}')
 print('-------------------------------------------')
 print('ยินดีต้อนรับ', str(std_id), 'ชื่อ', str(std_name))   #ใช้ ,
-print('คุณเกิดปี',str(stdYearBorn), 'อายุ', str(stdAge))
+print('คุณเกิดปี',(stdYearBorn), 'อายุ', str(stdAge))
 print('-------------------------------------------')
 print('ยินดีต้อนรับ'+' '+ str(std_id), 'ชื่อ'+' '+ str(std_name))   #ใช้ +
-print('คุณเกิดปี'+' '+ str(stdYearBorn), 'อายุ'+' '+ str(stdAge))
+print('คุณเกิดปี'+' '+ (stdYearBorn), 'อายุ'+' '+ str(stdAge))
 print('-------------------------------------------')
 print('ยินดีต้อนรับ {0} ชื่อ {1}'.format(std_id,std_name)) #ใช้ เมธอด format
 print('คุณเกิดปี {0} อายุ {1}'.format(stdYearBorn,stdAge))
